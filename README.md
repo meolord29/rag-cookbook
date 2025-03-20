@@ -1,7 +1,9 @@
 # RAG Cookbook Recipes
 With new LLMs, different techniques, and AI implementations, it is not only easy to get overwhelmed as a newcomer who just wants to start building something with LLMs, but also to fall into somebody else's agenda to pitch a specific framework for the newcomer to believe that that framework is the best solution for them. This repo acts as a starting point — a cookbook for anyone who might be stuck in the development journey, while not being steered into using a specific tool or specific AI framework (LangChain, LlamaIndex, etc.).
 
-The philosophy of this repo is: Minimum effort, maximum satisfaction — with no personal agenda to pitch any product. The recipes must be simple to follow with clear goals in mind, indicating which recipe should be followed to achieve specific outcomes. Once you get to know some recipes, it becomes easy to mix and match different recipes to get the desired outcome. This repository chooses to avoid implementing the latest techniques or complex implementations if they do not have a clear niche that they are resolving — that other implementations cannot achieve at a similar performance but at a fraction of the complexity.
+The philosophy of this repo is: Minimum effort, maximum satisfaction — with no personal agenda to pitch any product. The recipes must be simple to follow with clear goals in mind, indicating which recipe should be followed to achieve specific outcomes. 
+
+Once you get to know some recipes, it becomes easy to mix and match different recipes to get the desired outcome. This repository chooses to avoid implementing the latest techniques or complex implementations if they do not have a clear niche that they are resolving — that other implementations cannot achieve at a similar performance but at a fraction of the complexity.
 
 Each recipe has the following:
 - Title as the recipe outline
