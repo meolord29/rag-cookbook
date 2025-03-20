@@ -1,0 +1,9 @@
+.venv/
+
+folder_for_files/
+
+__pycache__/
+
+data/
+
+qdrant_docker_compose.yaml
