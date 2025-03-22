@@ -17,9 +17,9 @@ Each recipe has the following:
 
 
 ## Recipe Guide Map
+If you are just starting out in the world of Gen AI and don't know where to start, here is a simple guidemap of what to follow and in what order. Diamond shape rectangles are outcomes of each recipe. You do not have to follow in the exact order if you already know the tools that are specified by the square rectangles. The first part of the text specify the tool (or in most cases python package of interest) followed by a colon that explain what you will get out of using the tool. For example: "Streamlit: Simple Frontend", meaning - you will make a simple frontend by using streamlit python package.
 
 ```mermaid
-
 flowchart TD
     subgraph "Recipe #1"
         A[Fundamentals] --> B["Streamlit: Simple Frontend"]
@@ -59,9 +59,16 @@ flowchart TD
         - e.g. ```streamlit run app/main.py``` OR ```python3 app/stage_1_process_files.py```
 
 
-Checkpoints:
+Project Checkpoints:
 - [X] Basic Implementations to use chatGPT
-    - Simple Chatbot
-    - Simple Rag
+    - [X] Simple Chatbot
+    - [X] Simple Rag
 - [ ] How to set up basic monitoring 
+    - [ ] Monitoring costs and usage of particular individuals
+    - [ ] Logging for Errors and malfunctions
+    - [ ] Latency Monitoring
+
+
+Repository Mangement Checkpoints:
 - [ ] Set up unit tests for recepies 
+- [ ] Set up branch Rules of the repository
