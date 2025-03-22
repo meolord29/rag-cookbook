@@ -58,6 +58,7 @@ flowchart TD
     - All scripts should run from recipe directory, instead of /app folder.
         - e.g. ```streamlit run app/main.py``` OR ```python3 app/stage_1_process_files.py```
 
+<br>
 
 Project Checkpoints:
 - [X] Basic Implementations to use chatGPT
