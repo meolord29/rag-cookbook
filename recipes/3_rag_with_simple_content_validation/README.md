@@ -164,11 +164,18 @@ This recipe builds on the simple RAG implementation with the following enhanceme
 
 ## Usage
 
-Follow the steps in the implementation files to process documents, create embeddings, and run the advanced RAG system:
+To run the advanced RAG application:
 
-1. Process files: `stage_1_process_files.py`
-2. Chunk and embed: `stage_2_chunk_and_embed.py`
-3. Run the advanced RAG system: `stage_3_advanced_rag_streamlit.py`
+1. Install the required dependencies:
+   ```bash
+   pip install streamlit pandas torch qdrant-client openai llama-index sentence-transformers langchain-text-splitters tqdm docling
+   ```
+
+2. Follow the steps in the implementation files to process documents, create embeddings, and run the advanced RAG system:
+
+   - Process files: `stage_1_process_files.py`
+   - Chunk and embed: `stage_2_chunk_and_embed.py`
+   - Run the advanced RAG system: `stage_3_advanced_rag_streamlit.py`
 
 The Streamlit app provides a user-friendly interface to interact with the system, with options to:
 - Configure API settings
@@ -177,3 +184,9 @@ The Streamlit app provides a user-friendly interface to interact with the system
 - Enable/disable re-ranking and relevancy evaluation
 - View detailed visualizations of the retrieval process
 - See transparent source attribution in the generated responses
+
+## References
+1. [Cross-Encoders for Re-ranking](https://www.sbert.net/examples/applications/cross-encoder/README.html) - Information about cross-encoders for re-ranking
+2. [LLM-based Relevance Evaluation](https://arxiv.org/abs/2305.14627) - Research on using LLMs to evaluate relevance
+3. [Source Attribution in RAG Systems](https://towardsdatascience.com/source-attribution-in-rag-systems-9da599c76110) - Best practices for transparent source attribution
+4. [Streamlit Visualization Components](https://docs.streamlit.io/library/api-reference/charts) - Tools for creating interactive visualizations
