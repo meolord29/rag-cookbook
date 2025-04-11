@@ -71,5 +71,6 @@ Project Checkpoints:
 
 
 Repository Mangement Checkpoints:
+- [ ] merge all virtual environments together
 - [ ] Set up unit tests for recepies 
 - [ ] Set up branch Rules of the repository
